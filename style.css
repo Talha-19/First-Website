@@ -56,15 +56,60 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
 
-#am-text {
+#subheading {
     text-align: center;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #first-pic {
     max-width: 18%;
     max-height: fit-content;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.project-names {
+    font-size: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-names:hover {
+    background-color: black;
+}
+
+.summary {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.project-photos {
+    max-width: 50%;
+    height: auto;
 }
